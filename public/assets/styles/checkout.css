@@ -1,0 +1,134 @@
+.cielo {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Ajusta el contenido a la derecha */
+  }
+  
+  .position-relative {
+    height: 100px;
+  }
+  
+  .botonesCheckout {
+    color: white;
+  }
+  
+  .cieloLista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .titleParticularCommerce {
+    border-radius: 10px;
+  }
+  
+  h5 {
+    font-size: 12px !important;
+  }
+  
+  .swal2-styled.swal2-cancel.copy-button {
+    background-color: green;
+  }
+
+
+
+  .articlesCheckOut {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra tenue */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.containerCheckout {
+    margin: 20px;
+}
+
+.formCheckOut {
+    background-color: #f2f2f2; /* Fondo gris claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra tenue */
+    margin-bottom: 20px;
+}
+
+#nombre, #apellido, #direccion {
+    color: #333; /* Texto oscuro */
+    font-weight: bold; /* Fuente un poco más gruesa */
+    border: 1px solid #ccc; /* Borde gris claro */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#nombre:hover, #apellido:hover, #direccion:hover {
+    border-color: #007bff; /* Borde azul al pasar el mouse */
+}
+
+.btn {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Fondo azul oscuro al pasar el mouse */
+}
+
+.total {
+    margin-top: 20px;
+    border-top: 2px solid #ccc; /* Borde gris claro */
+    padding-top: 10px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra tenue */
+}
+
+/* Otras clases y estilos adicionales según sea necesario */
+/* Estilos para los botones de cantidad */
+.btnCantidad {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10%;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 0 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btnCantidad:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para el botón de resta */
+.btnMenos {
+  border-radius: 10%;
+}
+
+/* Estilos para el contenedor de productos */
+.producto {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la cantidad */
+.cantidad {
+  font-weight: bold;
+  margin: 0 10px;
+}

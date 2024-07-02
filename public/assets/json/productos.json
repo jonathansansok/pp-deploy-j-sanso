@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1",
+        "precio": "80",
+        "origen": "HD",
+        "descrip": "Captura en alta definición para recorridos interiores detallados.",
+        "titulo": "Interior Detallada - 1 a 3 pisos"
+    },
+    {
+        "id": "2",
+        "precio": "180",
+        "origen": "HD",
+        "descrip": "Panorama HD de alta calidad para recorridos exteriores amplios.",
+        "titulo": "HD Exterior Amplio - 4 a 6 pisos"
+    },
+    {
+        "id": "3",
+        "precio": "300",
+        "origen": "4K",
+        "descrip": "Recorrido virtual 360° en ultra alta definición para experiencias inmersivas.",
+        "titulo": "360° Inmersivo - 7 a 10 pisos"
+    },
+    {
+        "id": "4",
+        "precio": "500",
+        "origen": "4K",
+        "descrip": "Tours completos con visión envolvente en 4K para todos los espacios.",
+        "titulo": "Domo Completo - 11 a 15 pisos"
+    },
+    {
+        "id": "5",
+        "precio": "680",
+        "origen": "4K",
+        "descrip": "Imágenes en 3D y recorridos interactivos en ultra alta definición para edificios altos y prendas de vestir.",
+        "titulo": "Edificios Altos - 16 a 20 pisos"
+    },
+    {
+        "id": "6",
+        "precio": "500",
+        "origen": "HD",
+        "descrip": "Captura detallada para espacios abiertos y áreas extensas.",
+        "titulo": "Espacios Abiertos Extensos - 7 a 10 pisos"
+    },
+    {
+        "id": "7",
+        "precio": "300",
+        "origen": "HD",
+        "descrip": "Experiencias inmersivas de realidad aumentada en alta definición para propiedades pequeñas.",
+        "titulo": "Domo Propiedades Pequeñas - 1 a 3 pisos"
+    },
+    {
+        "id": "8",
+        "precio": "490",
+        "origen": "4k",
+        "descrip": "Captura de escenas y frames en 3D para indumentaria histórica.",
+        "titulo": "3D Retro para Indumentaria - 4 a 6 pisos"
+    },
+    {
+        "id": "9",
+        "precio": "700",
+        "origen": "4K",
+        "descrip": "Detalles nítidos y precisos para recorridos virtuales avanzados en estructuras complejas.",
+        "titulo": "Domo para Estructuras Complejas - 11 a 15 pisos"
+    },
+    {
+        "id": "10",
+        "precio": "800",
+        "origen": "HD",
+        "descrip": "Visión panorámica perfecta para recorridos extensos y complejos.",
+        "titulo": "Extensivo y Complejo - 16 a 20 pisos"
+    },
+    {
+        "id": "11",
+        "precio": "480",
+        "origen": "4K",
+        "descrip": "Recorridos en ultra alta definición y realidad aumentada para desarrollos modernos.",
+        "titulo": "Domo 4K RA Avanzado - 7 a 10 pisos"
+    },
+    {
+        "id": "12",
+        "precio": "150",
+        "origen": "HD",
+        "descrip": "Captura detallada con filtros avanzados para efectos especiales en propiedades exclusivas y moda.",
+        "titulo": "Filtros 3D para Propiedades Exclusivas y Moda"
+    }
+]
