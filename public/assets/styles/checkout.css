@@ -182,3 +182,26 @@ h5 {
   font-weight: bold;
   margin: 0 10px;
 }
+
+.btnEliminar {
+  background-color: #ff4d4d; /* Fondo rojo brillante */
+  color: #fff; /* Texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 50%; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+  margin-left: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.btnEliminar:hover {
+  background-color: #ff1a1a; /* Color de fondo al pasar el ratón */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Aumentar sombra al pasar el ratón */
+}
+
+.btnEliminar:active {
+  background-color: #e60000; /* Color de fondo al hacer clic */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reducir sombra al hacer clic */
+}
