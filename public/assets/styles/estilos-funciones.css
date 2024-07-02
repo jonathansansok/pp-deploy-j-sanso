@@ -684,60 +684,44 @@ svg {
           align-items: center;
 }
  */
-.contenedor {
+ .contenedor {
   width: 90%;
   height: 400px;
   max-width: 45em;
   padding: 1em;
   color: var(--negro);
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border-radius: 0.5em;
   background-color: white;
-  -webkit-box-shadow: 0.3em 0.3em 0.6em var(--sombra-ppal), -0.3em -0.3em 0.6em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
-          box-shadow: 0.3em 0.3em 0.6em var(--sombra-ppal), -0.3em -0.3em 0.6em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  box-shadow: 0.3em 0.3em 0.6em var(--sombra-ppal), -0.3em -0.3em 0.6em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
 }
 
 .contenedor .ul {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .contenedor .li {
   padding: 1em;
   margin: 0 2em 0 0;
   color: var(--negro);
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border-radius: 0.5em;
   background-color: var(--blanco);
-  -webkit-box-shadow: 0.3em 0.3em 0.6em var(--sombra-ppal), -0.3em -0.3em 0.6em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
-          box-shadow: 0.3em 0.3em 0.6em var(--sombra-ppal), -0.3em -0.3em 0.6em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
-  -webkit-transition: all 0.5s ease;
+  box-shadow: 0.3em 0.3em 0.6em var(--sombra-ppal), -0.3em -0.3em 0.6em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
   transition: all 0.5s ease;
   cursor: pointer;
 }
 
 @media (max-width: 600px) {
   .contenedor .li {
-
     margin: 0 0.5em 0 0;
-   font-size: 0.8rem;
+    font-size: 0.8rem;
   }
 }
-
 
 .contenedor .li.activo {
   background-color: white;
@@ -756,27 +740,33 @@ svg {
   position: absolute;
   top: 2em;
   color: black;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border-radius: 0.5em;
   background-color: white;
-  -webkit-box-shadow: 0.3em 0.3em 0.6em rgba(0, 0, 0, 0.1), -0.3em -0.3em 0.6em rgba(0, 0, 0, 0.1), inset 0 0 0 transparent, inset 0 0 0 transparent;
   box-shadow: 0.3em 0.3em 0.6em rgba(0, 0, 0, 0.1), -0.3em -0.3em 0.6em rgba(0, 0, 0, 0.1), inset 0 0 0 transparent, inset 0 0 0 transparent;
   opacity: 0;
-  -webkit-transform: translateY(50%);
   transform: translateY(50%);
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .contenedor .bloque.activo {
   opacity: 1;
-  -webkit-transform: translateY(0%);
   transform: translateY(0%);
 }
+
 @media (max-width: 520px) {
-  .contenedor{ 
-    height: 450px;
+  .contenedor {
+    height: 600px;
+  }
+
+  .contenedor .ul {
+    flex-direction: column;
+  }
+
+  .contenedor .li {
+    margin: 0.5em 0;
+    width: 100%;
+    text-align: center;
   }
 }
 
