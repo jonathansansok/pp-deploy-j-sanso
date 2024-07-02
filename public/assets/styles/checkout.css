@@ -1,10 +1,14 @@
-.cielo {
-    height: 100px;
+.header-CieloOk{
+  height: 120px;
+}.cielo {
+    height: 120px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end; /* Ajusta el contenido a la derecha */
   }
-  
+  .cieloLista{
+    margin-top: 20px;
+  }
   .position-relative {
     height: 100px;
   }
@@ -45,25 +49,74 @@
 }
 
 .formCheckOut {
-    background-color: #f2f2f2; /* Fondo gris claro */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra tenue */
-    margin-bottom: 20px;
+  background-color: #f2f2f2; /* Fondo gris claro */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra tenue */
+  margin-bottom: 20px;
 }
 
 #nombre, #apellido, #direccion {
-    color: #333; /* Texto oscuro */
-    font-weight: bold; /* Fuente un poco más gruesa */
-    border: 1px solid #ccc; /* Borde gris claro */
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    background-color: white;
+  color: #333; /* Texto oscuro */
+  font-weight: bold; /* Fuente un poco más gruesa */
+  border: 1px solid #ccc; /* Borde gris claro */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: white;
+  width: calc(100% - 22px); /* Asegura que los campos ocupen todo el ancho disponible */
+  box-sizing: border-box;
 }
 
 #nombre:hover, #apellido:hover, #direccion:hover {
-    border-color: #007bff; /* Borde azul al pasar el mouse */
+  border-color: #007bff; /* Borde azul al pasar el mouse */
+}
+@media (max-width: 910px) {
+  .menu-btn {
+      margin-top: 0;
+  }
+}
+@media (max-width: 910px) {
+  .cielo .cieloLista.show {
+      margin-top: 0px;
+      height: 400px;
+
+  }
+  .cielo ul li {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 0px;
+}
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 520px) {
+  .header-CieloOk{
+    height: 0;
+  }
+  .cieloLista{
+    margin-top: 0;
+  }
+  .textoVideo{
+    top: 0;
+  }
+  .formCheckOut {
+    padding: 10px; /* Reduce el padding en pantallas pequeñas */
+    width: 80%;
+  }
+
+  #nombre, #apellido, #direccion {
+    width: calc(100% - 12px); /* Asegura que los campos ocupen todo el ancho disponible en pantallas pequeñas */
+    font-size: 0.9rem; /* Ajusta el tamaño de la fuente si es necesario */
+  }
+
+  #btnEnviarWhatsApp {
+    width: 70%;
+    padding: 10px;
+    font-size: 14px;
+    
+ /* Ajusta el tamaño de la fuente si es necesario */
+  }
 }
 
 .btn {
