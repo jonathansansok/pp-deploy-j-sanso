@@ -75,17 +75,15 @@
   .menu-btn {
       margin-top: 0;
   }
-}
-@media (max-width: 910px) {
-  .cielo .cieloLista.show {
-      margin-top: 0px;
-      height: 400px;
-
-  }
   .cielo ul li {
     margin-top: 0;
     margin-bottom: 0;
     padding: 20px 0px;
+}
+.cielo .cieloLista.show {
+  margin-top: 0px;
+  height: 400px;
+
 }
 }
 
