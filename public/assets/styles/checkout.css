@@ -1,51 +1,50 @@
-.header-CieloOk{
+.header-CieloOk {
   height: 120px;
-}.cielo {
-    height: 120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end; /* Ajusta el contenido a la derecha */
-  }
-  .cieloLista{
-    margin-top: 20px;
-  }
-  .position-relative {
-    height: 100px;
-  }
-  
-  .botonesCheckout {
-    color: white;
-  }
-  
-  .cieloLista {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .titleParticularCommerce {
-    border-radius: 10px;
-  }
-  
-  h5 {
-    font-size: 12px !important;
-  }
-  
-  .swal2-styled.swal2-cancel.copy-button {
-    background-color: green;
-  }
+}
+.cielo {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* Ajusta el contenido a la derecha */
+}
+.cieloLista {
+  margin-top: 20px;
+}
+.position-relative {
+  height: 100px;
+}
 
+.botonesCheckout {
+  color: white;
+}
 
+.cieloLista {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-  .articlesCheckOut {
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra tenue */
-    padding: 20px;
-    border-radius: 8px;
+.titleParticularCommerce {
+  border-radius: 10px;
+}
+
+h5 {
+  font-size: 12px !important;
+}
+
+.swal2-styled.swal2-cancel.copy-button {
+  background-color: green;
+}
+
+.articlesCheckOut {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra tenue */
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .containerCheckout {
-    margin: 20px;
+  margin: 20px;
 }
 
 .formCheckOut {
@@ -56,7 +55,9 @@
   margin-bottom: 20px;
 }
 
-#nombre, #apellido, #direccion {
+#nombre,
+#apellido,
+#direccion {
   color: #333; /* Texto oscuro */
   font-weight: bold; /* Fuente un poco más gruesa */
   border: 1px solid #ccc; /* Borde gris claro */
@@ -64,38 +65,41 @@
   margin-bottom: 10px;
   border-radius: 4px;
   background-color: white;
-  width: calc(100% - 22px); /* Asegura que los campos ocupen todo el ancho disponible */
+  width: calc(
+    100% - 22px
+  ); /* Asegura que los campos ocupen todo el ancho disponible */
   box-sizing: border-box;
 }
 
-#nombre:hover, #apellido:hover, #direccion:hover {
+#nombre:hover,
+#apellido:hover,
+#direccion:hover {
   border-color: #007bff; /* Borde azul al pasar el mouse */
 }
 @media (max-width: 910px) {
   .menu-btn {
-      margin-top: 0;
+    margin-top: 0;
   }
   .cielo ul li {
     margin-top: 0;
     margin-bottom: 0;
     padding: 20px 0px;
-}
-.cielo .cieloLista.show {
-  margin-top: 0px;
-  height: 400px;
-
-}
+  }
+  .cielo .cieloLista.show {
+    margin-top: 0px;
+    height: 400px;
+  }
 }
 
 /* Media query para pantallas más pequeñas */
 @media (max-width: 520px) {
-  .header-CieloOk{
+  .header-CieloOk {
     height: 0;
   }
-  .cieloLista{
+  .cieloLista {
     margin-top: 0;
   }
-  .textoVideo{
+  .textoVideo {
     top: 0;
   }
   .formCheckOut {
@@ -103,8 +107,12 @@
     width: 80%;
   }
 
-  #nombre, #apellido, #direccion {
-    width: calc(100% - 12px); /* Asegura que los campos ocupen todo el ancho disponible en pantallas pequeñas */
+  #nombre,
+  #apellido,
+  #direccion {
+    width: calc(
+      100% - 12px
+    ); /* Asegura que los campos ocupen todo el ancho disponible en pantallas pequeñas */
     font-size: 0.9rem; /* Ajusta el tamaño de la fuente si es necesario */
   }
 
@@ -112,37 +120,37 @@
     width: 70%;
     padding: 10px;
     font-size: 14px;
-    
- /* Ajusta el tamaño de la fuente si es necesario */
+
+    /* Ajusta el tamaño de la fuente si es necesario */
   }
 }
 
 .btn {
-    background-color: #007bff; /* Fondo azul */
-    color: white; /* Texto blanco */
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+  background-color: #007bff; /* Fondo azul */
+  color: white; /* Texto blanco */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #0056b3; /* Fondo azul oscuro al pasar el mouse */
+  background-color: #0056b3; /* Fondo azul oscuro al pasar el mouse */
 }
 
 .total {
-    margin-top: 20px;
-    border-top: 2px solid #ccc; /* Borde gris claro */
-    padding-top: 10px;
+  margin-top: 20px;
+  border-top: 2px solid #ccc; /* Borde gris claro */
+  padding-top: 10px;
 }
 
 .producto {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra tenue */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra tenue */
 }
 
 /* Otras clases y estilos adicionales según sea necesario */
