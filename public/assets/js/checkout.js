@@ -52,7 +52,7 @@
         icon: "warning",
         confirmButtonText: "Aceptar",
       }).then(() => {
-        window.location.href = "/src/views/ventas.html";
+        window.location.href = "/views/ventas.html";
       });
     };
 

@@ -756,7 +756,7 @@ svg {
 
 @media (max-width: 520px) {
   .contenedor {
-    height: 600px;
+    height: 750px;
   }
 
   .contenedor .ul {

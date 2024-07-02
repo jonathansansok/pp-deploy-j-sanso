@@ -2960,3 +2960,13 @@ textarea textarea {
 .articlesVentas{
   background-color: whitesmoke;
 }
+
+.flash-blue {
+  background-color: blue;
+  transition: background-color 0.3s ease;
+}
+
+.flash-red {
+  background-color: red;
+  transition: background-color 0.3s ease;
+}

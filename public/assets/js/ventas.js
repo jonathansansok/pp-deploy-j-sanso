@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("carrito", JSON.stringify(carrito));
     actualizarCantidadCarrito();
     console.log("Carrito actualizado:", carrito);
+    flashButton(`botonAdd${idProducto}`, 'flash-blue');
   };
 
   const quitarItem = (idProducto) => {
@@ -31,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem("carrito", JSON.stringify(carrito));
       actualizarCantidadCarrito();
       console.log("Carrito actualizado:", carrito);
+      flashButton(`botonRemove${idProducto}`, 'flash-red');
     }
   };
 
@@ -107,6 +109,16 @@ document.addEventListener("DOMContentLoaded", () => {
       );
       renderizarProductos(productosFiltrados);
       darAccionABotones(productosFiltrados);
+    }
+  }
+
+  function flashButton(buttonId, flashClass) {
+    const button = document.getElementById(buttonId);
+    if (button) {
+      button.classList.add(flashClass);
+      setTimeout(() => {
+        button.classList.remove(flashClass);
+      }, 500);
     }
   }
 });

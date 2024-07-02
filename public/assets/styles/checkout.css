@@ -145,14 +145,6 @@ h5 {
   padding-top: 10px;
 }
 
-.producto {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra tenue */
-}
-
 /* Otras clases y estilos adicionales según sea necesario */
 /* Estilos para los botones de cantidad */
 .btnCantidad {
@@ -181,11 +173,10 @@ h5 {
 .producto {
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más grande y más oscura */
 }
-
 /* Estilos para la cantidad */
 .cantidad {
   font-weight: bold;
