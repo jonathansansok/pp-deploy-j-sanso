@@ -3,56 +3,56 @@
         "id": "1",
         "precio": "130",
         "origen": "3D",
-        "descrip": "Panorama 3D, hasta 10 capturas en alta definición para impresiones 3D de camisetas y blusas.",
+        "descrip": "Hasta 10 capturas en alta definición para impresiones 3D de camisetas y blusas.",
         "titulo": "Impresión 3D"
     },
     {
         "id": "2",
         "precio": "180",
         "origen": "3D",
-        "descrip": "Panorama 3D, hasta 10 capturas de alta definición para calzados de todo tipo de color/material",
+        "descrip": "Hasta 10 capturas de alta definición para calzados, todo tipo de color/material",
         "titulo": "Impresión 3D"
     },
     {
         "id": "3",
         "precio": "200",
         "origen": "3D",
-        "descrip": "Impresión 3D, hasta 10 capturas de objetos a la venta.",
+        "descrip": "Hasta 10 capturas de objetos a la venta.",
         "titulo": "Impresión 3D"
     },
     {
         "id": "4",
         "precio": "300",
         "origen": "4K",
-        "descrip": "Recorrido virtual 360° en ultra definición para experiencias inmersivas.",
-        "titulo": "360° Inmersivo - Casas a la venta"
+        "descrip": "Recorrido virtual 360° en alta definición para experiencias inmersivas.",
+        "titulo": "360° Inmersivo - Casas en venta"
     },
     {
         "id": "5",
         "precio": "500",
         "origen": "4K",
-        "descrip": "Recorrido virtual 360° en ultra definición para experiencias inmersivas.",
-        "titulo": "360° Inmersivo - Casa la venta de 2 a 3 pisos"
+        "descrip": "Recorrido virtual 360° en alta definición para experiencias inmersivas.",
+        "titulo": "360° Inmersivo - Casa en venta de 2 a 3 pisos"
     },
     {
         "id": "6",
         "precio": "500",
         "origen": "4K",
-        "descrip": "Recorrido virtual 360° en ultra definición para experiencia inmersivas.",
+        "descrip": "Recorrido virtual 360° en alta definición para experiencia inmersivas.",
         "titulo": "360° Inmersivo - Hoteles de hasta 4 pisos inclusive"
     },
     {
         "id": "7",
         "precio": "700",
         "origen": "HD",
-        "descrip": "Recorrido virtual 360° en ultra definición para experiencia inmersivas.",
+        "descrip": "Recorrido virtual 360° en alta definición para experiencia inmersivas.",
         "titulo": "360° Inmersivo - Hoteles de hasta 8 pisos inclusive"
     },
     {
         "id": "8",
         "precio": "1000",
         "origen": "4K",
-        "descrip": "Captura de alta calidad y frames en 3D para recorridos de hoteles  hasta 3 pisos.",
+        "descrip": "Recorrido virtual 360° en alta definición para experiencia inmersivas.",
         "titulo": "360° Inmersivo - Hoteles de hasta 10 pisos inclusive"
     },
     {
@@ -67,20 +67,20 @@
         "precio": "800",
         "origen": "4k",
         "descrip": "Recorrido 4k para tu comercio al detalle.",
-        "titulo": "Domo para Comercios/bares - Hasta 7 pisos"
+        "titulo": "Domo para Comercios/bares - Hasta 6 pisos"
     },
     {
         "id": "11",
         "precio": "550",
         "origen": "4K",
-        "descrip": "Recorridos en ultra alta definición y realidad aumentada para exteriores.",
+        "descrip": "Recorridos en alta definición y realidad aumentada para exteriores.",
         "titulo": "Exterioes con Domo 4K RA Avanzado - 400 m²"
     },
     {
         "id": "12",
         "precio": "1000",
         "origen": "HD",
-        "descrip": "Recorridos en ultra alta definición y realidad aumentada para exteriores.",
+        "descrip": "Recorridos en alta definición y realidad aumentada para exteriores.",
         "titulo": "Exterioes con Domo 4K RA Avanzado - hasta 1000 km²"    
     }
 ]

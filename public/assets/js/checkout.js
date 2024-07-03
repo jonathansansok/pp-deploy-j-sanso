@@ -1,6 +1,6 @@
 const generarTextoACopiar = (productos, nombre, apellido, direccion) => {
-  let texto = `😊 Hola, soy ${nombre} ${apellido}, y esta es mi dirección: ${direccion}. Este es mi pedido:\n\n`;
-  texto += "🛒 Descripción de los productos:\n";
+  let texto = `😊 Hola, soy ${nombre} ${apellido}, y esta es mi dirección: ${direccion}. Me gustaría contratar lo siguiente:\n\n`;
+  texto += "🛒 Descripción de los servicios:\n";
   let totalPagar = 0;
   for (const prod of productos) {
     const totalProducto = prod.precio * prod.cantidad;
